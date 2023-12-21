@@ -3,6 +3,8 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 
 import Homepage from './components/homepage/homepage.component';
+import Colorfulpage from ' ./components/Colorfulpage';
+import ' .App.cs';
 import Login from './components/login.component';
 import SignUp from './components/signup.component';
 import Aboutus from './components/aboutus.component';
@@ -13,6 +15,7 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <ColorfulPage />
         <nav className="navbar navbar-expand-lg navbar-light fixed-top">
           <div className="container">
             <Link className="navbar-brand" to={'/'}>
