@@ -13,9 +13,11 @@ code {
 }
 
 body {
-  background-color: aliceblue;
-  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
   display: flex;
-  font-weight: 400;
-  font-family: 'Fira Sans', sans-serif;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.3); /* Black 30% */
 }
