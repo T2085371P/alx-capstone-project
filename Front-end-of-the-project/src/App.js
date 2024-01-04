@@ -1,10 +1,8 @@
-
-
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 
 import Homepage from './components/homepage/homepage.component';
-import Colorfulpage from ' ./components/Colorfulpage';
-import ' .App.cs';
+// import Colorfulpage from ' ./components/Colorfulpage';
+// import '.App.css';
 import Login from './components/login.component';
 import SignUp from './components/signup.component';
 import Aboutus from './components/aboutus.component';
@@ -15,7 +13,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <ColorfulPage />
+        <div>
         <nav className="navbar navbar-expand-lg navbar-light fixed-top">
           <div className="container">
             <Link className="navbar-brand" to={'/'}>
@@ -52,6 +50,7 @@ function App() {
             </div>
           </div>
         </nav>
+        </div>
         <div className="auth-wrapper">
           <div className="auth-inner">
             <Routes>
