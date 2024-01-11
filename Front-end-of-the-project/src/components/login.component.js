@@ -13,6 +13,7 @@ export default class Login extends Component {
             type="email"
             className="form-control"
             placeholder="Enter email"
+            required
           />
         </div>
         <div className="mb-3">
@@ -21,6 +22,7 @@ export default class Login extends Component {
             type="password"
             className="form-control"
             placeholder="Enter password"
+            required
           />
         </div>
         <div className="mb-3">
@@ -35,10 +37,12 @@ export default class Login extends Component {
             </label>
           </div>
         </div>
-        <div className="d-grid">
-          <button type="submit" className="btn btn-primary">
-            Submit
-          </button>
+          <div className="d-grid">
+        <Link to='/dash-board'>
+        <button type="submit" className="btn btn-primary">
+         Sign In
+        </button>
+      </Link>
         </div>
         <p className="Not-Student-yet">
           Not a Registered Yet? <Link className="nav-link" to={'/sign-up'}>SignUp</Link>

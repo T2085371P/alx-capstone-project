@@ -6,12 +6,11 @@ export default class Homepage extends Component {
   render() {
     return (
         <div className='home'>
-            <h2>Welcome to</h2>
-            <h1>VATAD CBT Centre</h1>
-            <p id='p'>Where we focus on unlocking potential and empowering success.</p>
-            <p id='p'>Our approach combines user-friendly design with top-notch adaptive learning for excellence.</p>
+            
+            <h1>ANYEXAM</h1>
+           
         <img src={image} className="App-logo" alt="logo" /> <br/>
-        <Link to="/sign-in">
+        <Link to="/take-test">
         <button type="submit" className="btn btn-primary">
             Take Test
           </button>

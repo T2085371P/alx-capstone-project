@@ -33,6 +33,8 @@
     transform: rotate(0deg);
   }
   to {
+    background: #503b3e;
     transform: rotate(360deg);
   }
 }
+
